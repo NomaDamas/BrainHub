@@ -1,0 +1,15 @@
+name: personal_inbox
+version: 0.1.0
+description: "Personal capture Inbox for routing thoughts into review, priorities, and approved Obsidian Markdown."
+author: BrainHub
+kind: standalone
+provides_tools:
+  - personal_inbox_add
+  - personal_inbox_list
+  - personal_inbox_read
+  - personal_inbox_update
+  - personal_inbox_decide
+  - personal_inbox_review
+provides_commands:
+  - personal-inbox
+  - review
